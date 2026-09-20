@@ -13,32 +13,6 @@ proxies:
   sni: moltbot.doctoroyy.net
   skip-cert-verify: true
 - name: 🇲🇾 马来西亚 (Malaysia) 02 - xiaohe
-  server: my2.miyazono-kaori.com
-  port: 443
-  udp: true
-  type: vless
-  uuid: 355337bc-90f9-4469-8d9a-1e2be6a7a055
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: R6q8qhMxgq3ynJPUgudaRkcDXj0qgoc_UU1N0SWGLwM
-    short-id: ed77ac35a310
-  servername: www.setel.com
-  client-fingerprint: chrome
-- name: 🇲🇾 马来西亚 (Malaysia) 03 - xiaohe
-  server: my1.miyazono-kaori.com
-  port: 443
-  udp: true
-  type: vless
-  uuid: 355337bc-90f9-4469-8d9a-1e2be6a7a055
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: t3HU7p5iYjE9Lcq2-QHTXZFhpAvoXljTNDgmFkFN-Tc
-    short-id: 99f8972e3dd5ed
-  servername: www.setel.com
-  client-fingerprint: chrome
-- name: 🇲🇾 马来西亚 (Malaysia) 04 - xiaohe
   server: mlxy1.mangshe.xyz
   port: 2060
   udp: true
@@ -53,8 +27,6 @@ proxy-groups:
   - AUTO
   - 🇲🇾 马来西亚 (Malaysia) 01 - xiaohe
   - 🇲🇾 马来西亚 (Malaysia) 02 - xiaohe
-  - 🇲🇾 马来西亚 (Malaysia) 03 - xiaohe
-  - 🇲🇾 马来西亚 (Malaysia) 04 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -62,7 +34,5 @@ proxy-groups:
   proxies:
   - 🇲🇾 马来西亚 (Malaysia) 01 - xiaohe
   - 🇲🇾 马来西亚 (Malaysia) 02 - xiaohe
-  - 🇲🇾 马来西亚 (Malaysia) 03 - xiaohe
-  - 🇲🇾 马来西亚 (Malaysia) 04 - xiaohe
 rules:
 - MATCH,PROXIES
