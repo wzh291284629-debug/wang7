@@ -6,7 +6,7 @@
     {
       "type": "vless",
       "tag": "🇧🇷 巴西 (Brazil) 01 - xiaohe",
-      "server": "31.59.46.140",
+      "server": "132.243.203.243",
       "server_port": 8443,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "tls": {
@@ -20,7 +20,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/travel/intro?ed=2560",
+        "path": "/archive?ed=2560",
         "headers": {
           "Host": "cdn8848.776676.xyz"
         }
