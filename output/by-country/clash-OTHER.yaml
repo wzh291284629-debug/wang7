@@ -5,20 +5,16 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - xiaohe
-  server: 172.67.179.82
+  server: 172.64.152.23
   port: 443
   udp: true
-  type: vless
-  uuid: 7e26fd8f-d75a-473d-84ba-9f4e3f47d086
-  tls: true
-  servername: 0-m20.be434a1f-0c04-40c9-a43a-87cc7d7da502.kdns.fr
+  type: trojan
+  password: humanity
+  sni: www.calmlunch.com
   skip-cert-verify: false
-  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /8qMLgNapWf6SBxo8fhQlVPYO
-    headers:
-      Host: 0-m20.be434a1f-0c04-40c9-a43a-87cc7d7da502.kdns.fr
+    path: /assignment
 proxy-groups:
 - name: PROXIES
   type: select

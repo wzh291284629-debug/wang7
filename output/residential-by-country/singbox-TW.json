@@ -4,30 +4,26 @@
   },
   "outbounds": [
     {
-      "type": "hysteria2",
-      "tag": "🇩🇿 DZ 01 - xiaohe",
-      "server": "85.204.107.188",
-      "server_port": 8443,
-      "password": "Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0",
-      "tls": {
-        "enabled": true,
-        "server_name": "hopp-romania-new.roxa.org",
-        "insecure": true
-      }
+      "type": "shadowsocks",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe",
+      "server": "36.224.141.124",
+      "server_port": 50099,
+      "method": "chacha20-ietf-poly1305",
+      "password": "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇩🇿 DZ 01 - xiaohe"
+        "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇩🇿 DZ 01 - xiaohe"
+        "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
