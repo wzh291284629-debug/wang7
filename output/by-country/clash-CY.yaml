@@ -5,18 +5,19 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇾 塞浦路斯 (Cyprus) 01 - xiaohe
-  server: 172.64.158.146
-  port: 2095
+  server: 194.76.154.31
+  port: 40443
   udp: true
   type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  network: ws
-  ws-opts:
-    path: '/?ed=2560security=tls '
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  uuid: 9f0baff8-bdee-4de9-9515-bcc4932b41fa
+  tls: true
+  reality-opts:
+    public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
+    short-id: a8ae
+  servername: deepl.com
+  client-fingerprint: chrome
 - name: 🇨🇾 塞浦路斯 (Cyprus) 02 - xiaohe
-  server: india.letsconnectpoint.com
+  server: 5.253.42.159
   port: 443
   udp: true
   type: vless
@@ -27,7 +28,7 @@ proxies:
     public-key: erUEmyU1QK8y2corQh9bOjk0oHl2Mo6Z9WgoyKg_rC0
     short-id: c1e3d5d4
   servername: india.letsconnectpoint.com
-  client-fingerprint: random
+  client-fingerprint: qq
 proxy-groups:
 - name: PROXIES
   type: select
