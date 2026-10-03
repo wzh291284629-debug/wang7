@@ -15,7 +15,7 @@
         "server_name": "google.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
@@ -63,7 +63,7 @@
       "tls": {
         "enabled": true,
         "server_name": "admin.wwwinternetvideo.click",
-        "insecure": true
+        "insecure": false
       }
     },
     {
