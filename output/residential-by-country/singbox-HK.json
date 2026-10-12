@@ -4,16 +4,13 @@
   },
   "outbounds": [
     {
-      "type": "hysteria2",
+      "type": "vmess",
       "tag": "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe",
-      "server": "916164fa-tn2tc0-trgaw0-1h240.hk3.hyhuawei.com",
-      "server_port": 443,
-      "password": "28a5ce18-e7a1-11ec-91b2-f23c91cfbbc9",
-      "tls": {
-        "enabled": true,
-        "server_name": "916164fa-tn2tc0-trgaw0-1h240.hk3.hyhuawei.com",
-        "insecure": true
-      }
+      "server": "v10.hdacd.com",
+      "server_port": 30807,
+      "uuid": "cbb3f877-d1fb-344c-87a9-d153bffd5484",
+      "security": "auto",
+      "alter_id": 2
     },
     {
       "type": "selector",
