@@ -12,7 +12,7 @@
       "tls": {
         "enabled": true,
         "server_name": "adapting-basilisk.rooster465.autos",
-        "insecure": true
+        "insecure": false
       }
     },
     {
@@ -24,19 +24,30 @@
       "tls": {
         "enabled": true,
         "server_name": "master-possum.rooster465.autos",
-        "insecure": true
+        "insecure": false
       }
     },
     {
-      "type": "trojan",
+      "type": "vless",
       "tag": "🇮🇪 爱尔兰 (Ireland) 03 - xiaohe",
-      "server": "3.253.106.233",
+      "server": "185.18.221.188",
       "server_port": 443,
-      "password": "UX82473651",
+      "uuid": "b0a100ee-c397-43f2-bdae-2adfb7a0d4e5",
       "tls": {
         "enabled": true,
-        "server_name": "loved-shark.rooster465.autos",
-        "insecure": true
+        "server_name": "rnxq-1lpi3m.linmeisoft.com",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/b0a100ee-c397-43f2-bdae-2adfb7a0d4e5",
+        "headers": {
+          "Host": "rnxq-1lpi3m.linmeisoft.com"
+        }
       }
     },
     {
