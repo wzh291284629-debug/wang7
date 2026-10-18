@@ -28,6 +28,21 @@ proxies:
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
 - name: 🇦🇪 阿联酋 (UAE) 03 - xiaohe
+  server: 31.59.210.26
+  port: 2088
+  udp: true
+  type: vless
+  uuid: 5413edfb-08d6-4fba-b51c-809c04feb127
+  tls: true
+  reality-opts:
+    public-key: Eq3c19Y0WGB1APWMADQB-oxCvZFSVFAQxG5L6b8EkUg
+    short-id: b1ad165f903c62fe
+  servername: www.yandex.ru
+  client-fingerprint: qq
+  network: grpc
+  grpc-opts:
+    grpc-service-name: astracat
+- name: 🇦🇪 阿联酋 (UAE) 04 - xiaohe
   server: 31.59.210.32
   port: 443
   udp: true
@@ -38,12 +53,27 @@ proxies:
     public-key: qvVoQPNyuM86jBvBqOL-Z9VO_C9jMi_ZH8bb4fotNWA
     short-id: 7ec4374ffc6308fd
   servername: www.yandex.ru
-  client-fingerprint: firefox
+  client-fingerprint: ios
   network: grpc
   grpc-opts:
     grpc-service-name: astracat
-- name: 🇦🇪 阿联酋 (UAE) 04 - xiaohe
-  server: uae.unixzone.us
+- name: 🇦🇪 阿联酋 (UAE) 05 - xiaohe
+  server: 31.59.210.37
+  port: 443
+  udp: true
+  type: vless
+  uuid: 5413edfb-08d6-4fba-b51c-809c04feb127
+  tls: true
+  reality-opts:
+    public-key: 5k0dtOSzmshCubdYeKppsUdHU4i2ghaB9uSJSzGjHW4
+    short-id: 6dbf4931096f9890
+  servername: www.yandex.ru
+  client-fingerprint: safari
+  network: grpc
+  grpc-opts:
+    grpc-service-name: astracat
+- name: 🇦🇪 阿联酋 (UAE) 06 - xiaohe
+  server: 84.235.244.108
   port: 22573
   udp: true
   type: vless
@@ -53,21 +83,6 @@ proxies:
     path: /
     headers:
       Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 05 - xiaohe
-  server: 200.181.82.91
-  port: 21737
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: 0dad9116-eb88-47b6-98dd-67c9ed43afa6
-- name: 🇦🇪 阿联酋 (UAE) 06 - xiaohe
-  server: 200.181.82.91
-  port: 28740
-  udp: true
-  type: trojan
-  password: 0dad9116-eb88-47b6-98dd-67c9ed43afa6
-  sni: www.baidu.com
-  skip-cert-verify: true
 - name: 🇦🇪 阿联酋 (UAE) 07 - xiaohe
   server: 45.59.120.217
   port: 443
