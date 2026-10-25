@@ -4,23 +4,26 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇺🇸 美国 (United States) 01 (家宽) R50 - xiaohe
-  server: 23.160.56.99
-  port: 2087
+- name: 🇦🇲 亚美尼亚 (Armenia) 01 - xiaohe
+  server: 194.36.37.59
+  port: 10004
   udp: true
   type: vless
-  uuid: f1e7eafa-0d6f-441e-8565-29f34171aef2
+  uuid: f7376394-cd54-11f1-bb6a-bff6d0326f6a
+  network: ws
+  ws-opts:
+    path: /vpnjantit
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇺🇸 美国 (United States) 01 (家宽) R50 - xiaohe
+  - 🇦🇲 亚美尼亚 (Armenia) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇺🇸 美国 (United States) 01 (家宽) R50 - xiaohe
+  - 🇦🇲 亚美尼亚 (Armenia) 01 - xiaohe
 rules:
 - MATCH,PROXIES
