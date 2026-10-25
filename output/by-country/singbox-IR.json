@@ -5,24 +5,22 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🌐 其他地区 (Other) 01 - xiaohe",
-      "server": "104.17.210.74",
-      "server_port": 443,
-      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "tag": "🇮🇷 IR 01 - xiaohe",
+      "server": "198.16.113.220",
+      "server_port": 8443,
+      "uuid": "98a24806-141a-43d3-b094-bd66c4eb93b8",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "jp3.yohototo.top",
-        "insecure": false,
+        "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/tyxyws",
-        "headers": {
-          "Host": "jp3.yohototo.top"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "8NkTRxC5Q7bptx-8ADobkuhPK-ZN0kEEbzv6tCFGMzE",
+          "short_id": "69984b9e02545831"
         }
       }
     },
@@ -31,14 +29,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🌐 其他地区 (Other) 01 - xiaohe"
+        "🇮🇷 IR 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🌐 其他地区 (Other) 01 - xiaohe"
+        "🇮🇷 IR 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
