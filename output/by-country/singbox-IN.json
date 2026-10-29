@@ -4,15 +4,23 @@
   },
   "outbounds": [
     {
-      "type": "trojan",
+      "type": "vless",
       "tag": "🇮🇳 印度 (India) 01 - xiaohe",
-      "server": "139.84.132.62",
-      "server_port": 443,
-      "password": "Trojan@82164024",
+      "server": "194.61.31.126",
+      "server_port": 2053,
+      "uuid": "1d4e18bd-1f26-4915-b35a-7ace4826e76a",
       "tls": {
         "enabled": true,
-        "server_name": "139.84.132.62",
-        "insecure": true
+        "server_name": "www.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU",
+          "short_id": "9980e0609b0d3891"
+        }
       }
     },
     {
@@ -26,7 +34,7 @@
         "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -38,38 +46,6 @@
     {
       "type": "vless",
       "tag": "🇮🇳 印度 (India) 03 - xiaohe",
-      "server": "194.61.31.126",
-      "server_port": 2053,
-      "uuid": "1d4e18bd-1f26-4915-b35a-7ace4826e76a",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.apple.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU",
-          "short_id": "9980e0609b0d3891"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇳 印度 (India) 04 - xiaohe",
-      "server": "in002.zestapp778.com",
-      "server_port": 46362,
-      "uuid": "e9a8144e-5237-488a-afb1-9ca3d8d54c80",
-      "tls": {
-        "enabled": true,
-        "server_name": "in002.zestapp778.com",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇳 印度 (India) 05 - xiaohe",
       "server": "13.140.56.100",
       "server_port": 14430,
       "uuid": "68512eac-cd53-4de3-8d1e-08f6e04af1a9",
@@ -79,6 +55,30 @@
         "headers": {
           "Host": "13.140.56.100"
         }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇮🇳 印度 (India) 04 - xiaohe",
+      "server": "139.84.132.62",
+      "server_port": 443,
+      "password": "Trojan@82164024",
+      "tls": {
+        "enabled": true,
+        "server_name": "139.84.132.62",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇮🇳 印度 (India) 05 - xiaohe",
+      "server": "in002.zestapp778.com",
+      "server_port": 46362,
+      "uuid": "e9a8144e-5237-488a-afb1-9ca3d8d54c80",
+      "tls": {
+        "enabled": true,
+        "server_name": "in002.zestapp778.com",
+        "insecure": false
       }
     },
     {
