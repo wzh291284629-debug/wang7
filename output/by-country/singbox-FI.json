@@ -51,14 +51,11 @@
       "uuid": "09f30c46-3964-41ce-882a-72aee83ddd42",
       "tls": {
         "enabled": true,
-        "server_name": "hw6.divarkhaghazi.com.",
+        "server_name": "hw6.divarkhaghazi.com",
         "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         }
       },
       "transport": {
