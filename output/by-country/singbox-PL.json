@@ -16,8 +16,23 @@
       }
     },
     {
-      "type": "vless",
+      "type": "vmess",
       "tag": "🇵🇱 波兰 (Poland) 02 - xiaohe",
+      "server": "54.37.131.126",
+      "server_port": 80,
+      "uuid": "059fda3e-5ca9-4fbd-dd89-01cc6d4bb5dd",
+      "security": "auto",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "google.whatsapp.snapp.torob.basalam.hesanid8.ir."
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇵🇱 波兰 (Poland) 03 - xiaohe",
       "server": "ru1.radiolumens.uk",
       "server_port": 8445,
       "uuid": "36cf792c-f07d-4500-97ea-a395e5178deb",
@@ -45,7 +60,8 @@
       "outbounds": [
         "auto",
         "🇵🇱 波兰 (Poland) 01 - xiaohe",
-        "🇵🇱 波兰 (Poland) 02 - xiaohe"
+        "🇵🇱 波兰 (Poland) 02 - xiaohe",
+        "🇵🇱 波兰 (Poland) 03 - xiaohe"
       ]
     },
     {
@@ -53,7 +69,8 @@
       "tag": "auto",
       "outbounds": [
         "🇵🇱 波兰 (Poland) 01 - xiaohe",
-        "🇵🇱 波兰 (Poland) 02 - xiaohe"
+        "🇵🇱 波兰 (Poland) 02 - xiaohe",
+        "🇵🇱 波兰 (Poland) 03 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
