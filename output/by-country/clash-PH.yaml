@@ -5,6 +5,14 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇵🇭 菲律宾 (Philippines) 01 - xiaohe
+  server: 130.94.51.219
+  port: 46298
+  udp: true
+  type: trojan
+  password: 5t6i121em5lkmsmk
+  sni: ph001.zestapp778.com
+  skip-cert-verify: false
+- name: 🇵🇭 菲律宾 (Philippines) 02 - xiaohe
   server: ph001.zestapp778.com
   port: 46298
   udp: true
@@ -18,11 +26,13 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇵🇭 菲律宾 (Philippines) 01 - xiaohe
+  - 🇵🇭 菲律宾 (Philippines) 02 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇵🇭 菲律宾 (Philippines) 01 - xiaohe
+  - 🇵🇭 菲律宾 (Philippines) 02 - xiaohe
 rules:
 - MATCH,PROXIES
