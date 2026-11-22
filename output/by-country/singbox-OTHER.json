@@ -6,12 +6,12 @@
     {
       "type": "vless",
       "tag": "🌐 其他地区 (Other) 01 - xiaohe",
-      "server": "104.18.35.15",
+      "server": "104.21.94.203",
       "server_port": 443,
-      "uuid": "11111111-2222-3333-4444-555555555555",
+      "uuid": "364D2D52-E61E-4E52-80EC-2BC6BDF15349",
       "tls": {
         "enabled": true,
-        "server_name": "notified-rendered-moore-consideration.trycloudflare.com",
+        "server_name": "fr-free.fastestrelay.com",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -20,9 +20,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/tg-jiedianxielou",
+        "path": "/700gvl",
         "headers": {
-          "Host": "notified-rendered-moore-consideration.trycloudflare.com"
+          "Host": "fr-free.fastestrelay.com"
         }
       }
     },
